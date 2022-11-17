@@ -9,7 +9,7 @@ on:
   workflow_dispatch:
   
 env:
-  ASSET: zoned_receving.db.zip
+  ASSET: zoned_receiving.db.zip
 
 jobs:
   build:
