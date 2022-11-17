@@ -23,7 +23,7 @@ jobs:
       - name: build database
         run: make
       - name: prepare database for upload
-        run: zip ${{ env.ASSET}} zoned_receving.db
+        run: zip ${{ env.ASSET}} zoned_receiving.db
       - name: release # if you have large artifacts upload to a repo's release.
         uses: WebFreak001/deploy-nightly@v1.2.0
         env:
