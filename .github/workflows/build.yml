@@ -29,9 +29,8 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # automatically provided by github actions
           RELEASE_ID: 83337832 # find out this value by opening https://api.github.com/repos/<owner>/<repo>/releases in your browser and copy the "id" value
-          REPO: ${GITHUB_REPOSITORY}
         with:
-          upload_url: https://uploads.github.com/repos/${{ env.REPO }}/releases/${{ env.RELEASE_ID }}/assets{?name,label}
+          upload_url: https://uploads.github.com/repos/${{ github.repository }}/releases/${{ env.RELEASE_ID }}/assets{?name,label}
           release_id: ${{ env.RELEASE_ID }}
           asset_path: ./${{ env.ASSET }}
           asset_name: ${{ env.ASSET }} # name to upload the release as, use $$ to insert date (YYYYMMDD) and 6 letter commit hash
