@@ -1,6 +1,6 @@
 # Zoned and Receiving Schools
 
-[This database](https://github.com/Chicago-Data-Collaborative-Schools/zoned-receiving/releases/download/nightly/zoned_receiving.db.zip) contains data on the school that students are zoned for and what schools they attend. The data includes counts of students zoned-attending pairs from the 2018-2019 through the 2020-2021 school year.
+[This database](https://github.com/Chicago-Data-Collaborative-Schools/zoned-receiving/releases/download/nightly/zoned_receiving.db.zip) contains data on the school that students are zoned for and what schools they attend. The data includes counts of students zoned-attending pairs from the 2019-2010 through the 2022-2023 school year.
 
 ## To Build
 ```bash
@@ -9,4 +9,4 @@
 ```
 
 ## FOIA Request
-![Screenshot 2022-11-16 at 21-35-53 Service Request Edit Page](https://user-images.githubusercontent.com/536941/202340988-b85806ba-5106-4f88-80f1-4dc2bffb034e.png)
+This data comes from a pNovember, 2022 Freedom of Information Request](https://www.muckrock.com/foi/chicago-169/student-residing-zoneattendance-area-school-summary-2018-19-to-2021-22-137241/). 

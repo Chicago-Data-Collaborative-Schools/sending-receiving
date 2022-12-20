@@ -8,7 +8,7 @@ select ATTSCH_ID as id,
 FROM zoned_receiving
 UNION
 select ZONESCH_ID as id,
-       ZONESCH_NM as name,
+       ZONESCH_NAME as name,
        ZONESCH_GRADECAT as gradecat,
        NULL as network,
        ZONESCH_GOVERNANCE as governance
